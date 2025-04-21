@@ -21,8 +21,5 @@ public class scrolling : MonoBehaviour
         //Debug.Log(offset + " " + Time.deltaTime + " "+ speed);
         //rend.material.SetTextureOffset("_MainTex", new Vector2(0, offset));
         rend.material.mainTextureOffset = new Vector2(0, -offset);
-        //vecoffset = rend.material.GetTextureOffset("_MainTex");
-        //Debug.Log("Current offset: " + vecoffset.x + " " + vecoffset.y);
-
     }
 }
